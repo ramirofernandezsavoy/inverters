@@ -11,6 +11,12 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.11.0",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "@fontsource-variable/roboto-slab": "^5.1.1",
+    "@fontsource/roboto": "^5.1.1",
+    "@preline/collapse": "^2.5.2",
+    "@preline/overlay": "^2.5.2",    
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49"    
   }
 }

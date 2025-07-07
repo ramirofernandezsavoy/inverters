@@ -5,3 +5,22 @@ import "../styles/global.css";
 <div>    
     <slot />
 </div>
+
+<style is:global>
+  html,
+  body {
+    margin: 0;
+    height: auto;
+    width: auto;
+    scroll-behavior: smooth;
+  }
+  .container-central {
+    max-width: 1280px;
+    margin: auto;
+  }
+  *,
+  ::after,
+  ::before {
+    /* outline: 2px solid lime; */
+  }
+</style>
