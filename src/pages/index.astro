@@ -1,5 +1,13 @@
 ---
-
+import Layout from "../layouts/Layout.astro"
+import Navbar from "../components/Navbar.astro";
+import Hero from "../sections/Hero.astro";
+import Servicios from "../sections/Servicios.astro";
+import Presupuesto from "../sections/Presupuesto.astro";
+import Proceso from "../sections/Proceso.astro";
+import Galeria from "../sections/Galeria.astro";
+import Contacto from "../sections/Contacto.astro";
+import Footer from "../sections/Footer.astro";
 ---
 
 <html lang="en">
@@ -8,9 +16,18 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title> | Reparación de soldadoras inverter</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-slate-300 text-gray-900">
+		<Layout>
+			<Navbar />
+			<Hero />
+			<Servicios />
+			<Presupuesto />
+			<Proceso />
+			<Galeria />
+			<Contacto />
+			<Footer />
+		</Layout>
 	</body>
 </html>
